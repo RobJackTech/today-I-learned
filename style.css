@@ -50,6 +50,10 @@ h1 {
   margin-top: 6px;
 }
 
+.category {
+  margin-bottom: 16px;
+}
+
 .fact {
   font-size: 20px;
   line-height: 1.4;
@@ -74,7 +78,28 @@ h1 {
 
 .vote-buttons {
   margin-left: auto;
+  flex-shrink: 0;
+  display: flex;
+  gap: 8px;
 }
+
+.vote-buttons button {
+  background-color: #78716c;
+  border: none;
+  font-size: ;
+  padding: 6px 12px;
+  border-radius: 100px;
+  color: inherit;
+  font-family: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.vote-buttons button:hover {
+  background-color: #292524;
+}
+
 ul {
   list-style: none;
 }
@@ -90,4 +115,33 @@ ul {
 .source:hover,
 .source:active {
   color: #3b82f6;
+}
+.btn {
+  border: none;
+  font-family: "Coiny" sans-serif;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 16px 0 13px;
+  background-image: linear-gradient(135deg, #3b82f6, #ef4444, #16a34a, #eab308);
+  color: inherit;
+  transition: 0.3s;
+}
+.btn:hover {
+  transform: scale(110%) rotate(-2deg);
+}
+
+.btn-large {
+  font-size: 30px;
+  padding: 20px 42px 17px;
+}
+
+.btn-all-categories {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.btn-category {
+  width: 100%;
+  background-image: none;
 }
