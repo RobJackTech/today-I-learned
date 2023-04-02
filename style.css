@@ -145,3 +145,18 @@ ul {
   width: 100%;
   background-image: none;
 }
+
+.fact-form input,
+.fact-form select {
+  background-color: #78716c;
+  border: none;
+  border-radius: 100px;
+  padding: 16px;
+  font-size: 18px;
+  color: inherit;
+  font-family: inherit;
+}
+
+.fact-form input::placeholder {
+  color: #a8a29e;
+}
