@@ -40,6 +40,9 @@ body {
   background-color: #44403c;
   margin-bottom: 40px;
   padding: 16px 40px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 h1 {
@@ -148,6 +151,7 @@ ul {
 
 .fact-form input,
 .fact-form select {
+  width: 220px;
   background-color: #78716c;
   border: none;
   border-radius: 100px;
@@ -159,4 +163,14 @@ ul {
 
 .fact-form input::placeholder {
   color: #a8a29e;
+}
+
+.fact-form input:first-child {
+  flex-grow: 1;
+}
+
+.fact-form span {
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 18px;
 }
