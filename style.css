@@ -8,6 +8,10 @@ body {
   padding: 48px 64px;
 }
 /*LAYOUT */
+
+.hidden {
+  display: none;
+}
 .container {
   max-width: 1000px;
   margin: 0 auto;
