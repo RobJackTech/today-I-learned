@@ -12,7 +12,7 @@ btn.addEventListener("click", function () {
     btn.textContent = "Share a fact";
   }
 });
-
+/*
 let votesInteresting = 23;
 let votesMindlowing = 5;
 const text = "Lisbon is the capital of Portugal";
@@ -29,7 +29,7 @@ const isCorrect = votesFalse < totalUpvotes;
 console.log(isCorrect);
 
 console.log(parseInt("24.533cc"));
-
+*/
 function calcFactAge(year) {
   const currentYear = new Date().getFullYear();
   const age = currentYear - year;
@@ -40,3 +40,6 @@ const age1 = calcFactAge(2015);
 console.log(age1);
 console.log(calcFactAge(2020));
 console.log(calcFactAge(1990));
+
+let votesInteresting = 20;
+let votesMindlowing = 20;
