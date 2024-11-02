@@ -72,3 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## 5/9/2023 - React
 
 ## 5/17/2023 - React Restart 2
+
+
+## Today I learneed how to set up a secret on a token.
